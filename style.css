@@ -1,0 +1,94 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: #333;
+    color: #fff;
+  }
+  
+  .navbar-brand {
+    font-size: 2rem;
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  .navbar-menu {
+    display: flex;
+    
+
+    list-style: none;
+    margin: 0;
+    padding-right: 30%;
+    padding-left: 20%;
+  }
+  
+  .navbar-item {
+    margin: 0 1rem;
+  }
+  
+  .navbar-link {
+    display: block;
+    padding: 0.5rem 1rem;
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .navbar-link:hover {
+    background-color:orange;
+  }
+  .icon{
+    background-color: #fff;
+  }
+  .cover-image {
+    background-image: url('images/cupcake.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 70vh; /* set the height to the full viewport height */
+    width: 100%; /* set the width to the full viewport width */
+  }
+  .cakezone-container {
+    width: 400px;
+    height: 400px;
+    
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .super-crispy-title {
+    font-size: 18px;
+    color:orange;
+    margin-bottom: 5px;
+  }
+  
+  .cakezone-title {
+    font-size: 36px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    color: #f7f7f7;
+  }
+  
+  .best-cake-title {
+    font-size: 18px;
+    color:white;
+    margin-bottom: 20px;
+  }
+  
+  .read-more-link {
+    display: inline-block;
+    padding: 5px 15px;
+    background-color:orange;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 20px;
+    transition: background-color 0.3s;
+  }
+  
+  .read-more-link:hover {
+    background-color: #444;
+  }
